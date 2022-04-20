@@ -12,7 +12,7 @@ from env import user, password, host
 
 def wrangle_superstore():
     '''
-    
+
     '''
     
     filename = 'superstore.csv'
@@ -44,7 +44,8 @@ def wrangle_superstore():
                     'Category ID': 'category_id',
                     'Region ID': 'region_id',
                     'Region Name': 'region_name',
-                    'Ship Mode': 'shipping_method'})
+                    'Ship Mode': 'shipping_method',
+                    'Sub-Category': 'sub_category'})
     
     df.columns= df.columns.str.lower()
     
