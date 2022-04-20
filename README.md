@@ -1,6 +1,8 @@
 # Project Goal
 ------------
-# TBD
+What should we market?
+
+We want to launch a new marketing campaign in the near future. How should we target with this campaign? Would you recomend targeting a specific type of customer, product line, or anything else?
 
 
 Initial Questions
