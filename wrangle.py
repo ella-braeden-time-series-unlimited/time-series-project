@@ -12,6 +12,8 @@ from env import user, password, host
 
 def wrangle_superstore():
     '''
+    The query below is used to join 4 tables from the superstore dataset in the Codeup SQL Cloud Database.  The tables joined are:orders, 
+categories and regions, products. Rename all columns, set order_date to index, added year and month column
 
     '''
     
@@ -23,7 +25,8 @@ def wrangle_superstore():
     
     # Pull from SQL
     query = '''
-        SELECT orders.*, products.`Product Name`, categories.Category, categories.`Sub-Category`, regions.`Region Name`
+        SELECT orders.*, products.`Product Name`, 
+        categories.Category,  categories.`Sub-Category`, regions.`Region Name`
         FROM orders
         LEFT JOIN products ON orders.`Product ID` = products.`Product ID`
         LEFT JOIN categories ON orders.`Category ID` = categories.`Category ID`
@@ -46,14 +49,21 @@ def wrangle_superstore():
                     'Region Name': 'region_name',
                     'Ship Mode': 'shipping_method',
                     'Sub-Category': 'sub_category'})
-    
+    #convert the columns name to lower case. 
     df.columns= df.columns.str.lower()
     
-    # Set order_date to index
+    #convert the order_date to datetime datatype. 
     df['order_date'] = pd.to_datetime(df['order_date'])
-
-    df = df.set_index('order_date').sort_index()
     
+    # Added year as a column. 
+    df['year'] = pd.DatetimeIndex(df['order_date']).year
+    
+    # Added month as column. 
+    df['month'] = pd.DatetimeIndex(df['order_date']).month
+       
+    # Set order_date to index
+    df = df.set_index('order_date').sort_index()
+   
     # Download cleaned data to a .csv
     df.to_csv(filename, index=False)
     
