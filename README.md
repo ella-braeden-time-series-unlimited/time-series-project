@@ -11,11 +11,16 @@ The Super Store dataset contains data on order details of customers for orders o
 
 Initial Questions
 -----------------
-1.
-2.
-3.
-4.
-5.
+* How much did the store make and sell between 2014 and 2017?
+
+* Which was the most profitable sub-category? 
+
+* What item / discount is responsible for the dip in profit for 2017?
+
+* Overall Q4 Sales for the past three years? 
+
+* What's the discount distribution? 
+
 
 # Project Planning
 Plan -> Acquire -> Prepare -> Explore -> Deliver
@@ -35,7 +40,7 @@ Planning:
 
 ***Exploration ***
 
-* Ask and answer statistical questions about the superstore data.
+* Ask and answer questions about the superstore data.
 * Visually represent findings with charts. 
 
 ***Deliver***
