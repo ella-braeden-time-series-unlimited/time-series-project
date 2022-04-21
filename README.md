@@ -48,27 +48,49 @@ Planning:
 # Data Dictionary
 --------------
 order_id           The order number. 
+
 ship_date          The date an order was shipped. 
+
 shipping_method    Standard delivery method for stock items sent to this customer.  
+
 customer_id        Customer ID Number (system assigned)
+
 segment            0
+
 country            Delivery country for the customer 
+
 city               Delivery city code for the customer 
+
 state              Delivery state for the customer 
+
 zip_code           Delivery postal code for the customer 
+
 product id         Product ID number. 
+
 sales              The sale amount of an order. 
+
 quantity           The quantity amount. 
+
 discount           The discount percentage. 
+
 profit             The profit amount of an order. 
+
 category_id        A unique identifier for a category.
+
 region_id          A unique identifier for a region. 
+
 product name       The name of a product. 
+
 category           The name of the category in the product catalog.
+
 sub_category       The name of the category in the product catalog.
+
 region_name        0
+
 year               The name of the year for an order. 
+
 month              The name of the month for an order. 
+
 Feature -----> Discription
 
 # Steps to Reproduce
