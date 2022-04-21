@@ -1,2 +1,6 @@
 env.py
 superstore.csv
+.DS_Store
+*.csv
+__pycache__
+.ipynb_checkpoints/
