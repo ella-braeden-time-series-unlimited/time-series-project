@@ -1,11 +1,9 @@
 # Project Goal
 ------------
-What should we market?
+We want to launch a new marketing campaign in the near future. The holidays are a time for celebration. For many, they also mean the return of the dreaded shopping season. With Black Friday and Cyber Monday right around the corner, it is important to start preparing now. The 4th quarter of the year is shoulder season for our online store, we would like to create a marketing plan for 2018. 
 
-We want to launch a new marketing campaign in the near future. How should we target with this campaign? Would you recomend targeting a specific type of customer, product line, or anything else?
-The Super Store dataset contains data on order details of customers for orders of a superstore in the US. This includes the state, region, order date, shipping date, product ordered etc.
 
-# Project Description
+The threes Ps of marketing are the key factors that are involved in the marketing of a good or service. They are the product, profit, and promotion of a good or service. With our data analysis, our goal is draw a near accurate marketing strategy.
 
 
 
@@ -115,7 +113,20 @@ Run the final_report.ipynb notebook
 ***
 
 # Key Findings
+* Majority of profit comes from Office Supplies, Technology 
+* Office Supply sell 4-to-1 compared to Technology, with Tech being 3x as profitable    on avg.
+* Office Supplies had a steady growth over the past 4 years while our Tech has barely grown
+* Technology sales need to be better regulated, as large discounts applied to Machine Sales have dramatically impacted our overall profit more than once.
+
 
 # Recommendation
+* If our Technology Sales increased at even 50% the rate of our Office Supply Sales our profits would undoubtedly increase
+* A Marketing Push on Superstore Technology should help increase revenue
+Limit the discounts available for Technology to no more than 20%
+
 
 # Next Steps 
+* Continue observations of Technology and push the growth of Tech Sales
+* There is potential to continue exploring the data to find what Technologies are more marketable to larger corporate offices
+* Explore the reason behind high discount machines, maybe encountered a strong competitor, and needs to be analyzed in combination with the actual business and appropriately improve the business strategy.
+
