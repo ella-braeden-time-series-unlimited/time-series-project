@@ -60,9 +60,7 @@ categories and regions, products. Rename all columns, set order_date to index, a
     
     # Added month as column. 
     df['month'] = pd.DatetimeIndex(df['order_date']).month
-       
-    # Set order_date to index
-    df = df.set_index('order_date').sort_index()
+    #df = df.set_index('order_date').sort_index()
    
     # Download cleaned data to a .csv
     df.to_csv(filename, index=False)
@@ -70,3 +68,4 @@ categories and regions, products. Rename all columns, set order_date to index, a
     print('Downloading data from SQL...')
     print('Saving to .csv')
     return df
+
